@@ -5,6 +5,7 @@ on:
     types: [opened, synchronize, reopened]
     paths:
       - "examples/python/**"
+      - ".github/workflows/python-precommit.yml"
 
 jobs:
   python-pre-commit:
