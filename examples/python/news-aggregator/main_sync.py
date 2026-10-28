@@ -3,9 +3,8 @@
 import logging
 import os
 
-from playwright.sync_api import BrowserContext, sync_playwright
-
 import agentql
+from playwright.sync_api import BrowserContext, sync_playwright
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
