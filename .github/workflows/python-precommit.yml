@@ -41,7 +41,7 @@ jobs:
 
       - name: Lint check
         working-directory: ./examples/python
-        run: pylint --disable=R,C application_examples examples
+        run: pylint --recursive=y --disable=R,C .
 
       - name: Code style check
         working-directory: ./examples/python
